@@ -76,3 +76,39 @@ nav ul li a:hover{
     border-radius: 7px;
     cursor: pointer;
 }
+
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction:column;
+    margin: 0 15px;
+}
+
+.card h2{
+    margin: 26px 0;
+    font-family:'Lato',
+        sans-serif;
+}
+
+.lines{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
